@@ -1,0 +1,18 @@
+﻿// ATLServiceSample.idl : ATLServiceSample の IDL ソース
+//
+
+// このファイルは、タイプ ライブラリ ([!output SAFE_IDL_NAME].tlb) およびマーシャリング コードを
+// タイプ ライブラリ (ATLServiceSample.tlb) とマーシャリング コードを生成します。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(27f69add-ec90-438f-8ccd-79518e686c21),
+	version(1.0),
+]
+library ATLServiceSampleLib
+{
+	importlib("stdole2.tlb");
+};
+
